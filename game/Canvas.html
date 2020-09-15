@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SUPERGAME</title>
+    <script type="text/javascript" src="map.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+    <script type="text/javascript" src="sprite.js"></script>
+    <script type="text/javascript" src="object.js"></script>
+    <script type="text/javascript" src="events.js"></script>
+    <script type="text/javascript" src="physic.js"></script>
+    <script type="text/javascript" src="sound.js"></script>
+
+    <link rel="stylesheet" href="game.css">
+</head>
+<style>
+    body { background: url(back.png); }
+</style>
+<body>
+<h1>SuperGame</h1>
+<div id="start_game" style="display: block" align="center">
+    <p><b>Enter your name</b></p>
+    <p><input type="text" id="name" value="Sauron"/></p>
+    <p><button class="w3-button w3-green" onclick="startGame()">Start</button></p>
+
+    <h2 class="records">Record Table</h2>
+    <ul id = "recordTable">
+
+    </ul>
+</div>
+<h2 id="global_status">Level: 1</h2>
+<div>
+    <canvas id="map" width="800" height="400" style="border:1px solid #000000; background: #d8d8d8"></canvas>
+    <table id="menu">
+        <tr>
+            <td> <button class="w3-button w3-green" onclick="location.reload()">Restart</button></td>
+        </tr>
+        <tr>
+            <td> <h2>Time:</h2></td>
+            <td><div id="date"></div></td>
+        </tr>
+        <tr>
+            <td> <h2>Name:</h2></td>
+            <td> <div id="game_name"></div></td>
+        </tr>
+        <tr>
+            <td> <h2>Points:</h2></td>
+            <td> <div id="status">0</div></td>
+        </tr>
+    </table>
+</div>
+
+<script>
+    function startGame() {
+        let gameMenu = document.getElementById("start_game");
+        gameMenu.style.display = "none";
+
+        let canvas = document.getElementById("map");
+        canvas.style.display = "block";
+        let menu = document.getElementById("menu");
+        menu.style.display = "block";
+        let header = document.getElementById("global_status");
+        header.style.display = "block";
+        var gameNameDisplay = document.getElementById("game_name");
+        gameNameDisplay.innerHTML = document.getElementById("name").value;
+        let gameManager = new GameManager(canvas, ["maps/map1.json", "maps/map2.json"], "sprites/sprites.json", "sprites/spritesheet.png", document.getElementById("name").value);
+        gameManager.play();
+    }
+
+    let canvas = document.getElementById("map");
+    canvas.style.display = "none";
+    let menu = document.getElementById("menu");
+    menu.style.display = "none";
+    let header = document.getElementById("global_status");
+
+    header.style.display = "none";
+
+    function isNumber(n) {
+        return !isNaN(parseFloat(n)) && isFinite(n);
+    }
+
+    function printRecordTable() {
+        var ul = document.getElementById("recordTable");
+
+        var table = [];
+
+        for(key in localStorage) {
+            if (isNumber(localStorage.getItem(key))) {
+                table.push({"name": key,"score": parseInt(localStorage.getItem(key))});
+            }
+        }
+
+        table = table.sort((a, b) => b.score - a.score);
+
+        for (let i = 0; i < 10 && i < table.length; ++i){
+            var li = document.createElement("li");
+            li.appendChild(document.createTextNode(table[i].name + ":" + table[i].score));
+            ul.appendChild(li);
+        }
+    }
+
+    printRecordTable();
+
+</script>
+</body>
+</html>

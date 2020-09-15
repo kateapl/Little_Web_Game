@@ -1,0 +1,52 @@
+body{
+    background-color: #98FB98;
+}
+
+h1{
+    text-align: center;
+    font-family: "Lobster", cursive;
+    font-size: 52px;
+}
+h2{
+    text-align: center;
+    font-family: "Lobster", cursive;
+}
+canvas{
+    margin-left:3%;
+    margin-top: 2%;
+}
+div {
+    display: flex;
+}
+table{
+    margin-top: 2%;
+    margin-left: 4%;
+    text-align: center;
+}
+#date{
+    text-align: center;
+    font-family: "Lobster", cursive;
+    font-size: 30px;
+}
+#game_name{
+    text-align: center;
+    font-family: "Lobster", cursive;
+    font-size: 30px;
+}
+#status{
+    text-align: center;
+    font-family: "Lobster", cursive;
+    font-size: 30px;
+}
+.records{
+    margin-top: 5%;
+}
+#recordTable{
+    list-style-type: none;
+}
+.w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.w3-disabled,.w3-btn:disabled,.w3-button:disabled{cursor:not-allowed;opacity:0.3}.w3-disabled *,:disabled *{pointer-events:none}
+.w3-btn.w3-disabled:hover,.w3-btn:disabled:hover{box-shadow:none}
+.w3-green,.w3-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}

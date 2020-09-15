@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4d162dc-4f96-48ee-8de0-c003ee0249ac" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1U1dPPPJm0X5hVwAFgDY0NrJG4k" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kurs sound play" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Canvas.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/kurs/Canvas.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Canvas.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4d162dc-4f96-48ee-8de0-c003ee0249ac" name="Default Changelist" comment="" />
+      <created>1574528010664</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574528010664</updated>
+      <workItem from="1574528012339" duration="4786000" />
+      <workItem from="1574541515732" duration="3583000" />
+      <workItem from="1574682232213" duration="13891000" />
+      <workItem from="1574712578461" duration="7746000" />
+      <workItem from="1574802973001" duration="1773000" />
+      <workItem from="1574860215379" duration="2571000" />
+      <workItem from="1574866755657" duration="8940000" />
+      <workItem from="1574890134283" duration="2434000" />
+      <workItem from="1574943108487" duration="3194000" />
+      <workItem from="1574977111847" duration="2880000" />
+      <workItem from="1575018772240" duration="8927000" />
+      <workItem from="1575115273984" duration="7151000" />
+      <workItem from="1575140320395" duration="3707000" />
+      <workItem from="1575387725544" duration="3284000" />
+      <workItem from="1575408753778" duration="96000" />
+      <workItem from="1575408950163" duration="3853000" />
+      <workItem from="1575464325554" duration="3263000" />
+      <workItem from="1575472213705" duration="752000" />
+      <workItem from="1575473866811" duration="672000" />
+      <workItem from="1575499339431" duration="52000" />
+      <workItem from="1575499425226" duration="86000" />
+      <workItem from="1575499702781" duration="5610000" />
+      <workItem from="1575559974352" duration="6900000" />
+      <workItem from="1575568991120" duration="17779000" />
+      <workItem from="1575588367735" duration="1927000" />
+      <workItem from="1575609576811" duration="1816000" />
+      <workItem from="1575652298234" duration="94000" />
+      <workItem from="1575914948613" duration="1854000" />
+      <workItem from="1576165284071" duration="2589000" />
+      <workItem from="1577229206987" duration="340000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="472" y="137" key="FileChooserDialogImpl" timestamp="1577229546054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="472" y="137" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577229546054" />
+  </component>
+</project>
